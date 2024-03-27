@@ -95,7 +95,7 @@ nav .fa-solid{
     margin:20px 0 40px;
 }
 .tab-links{
-    margin-right: 50px;
+    margin-right: 40px;
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
@@ -132,8 +132,11 @@ nav .fa-solid{
         background:black;
     }
     .about-col-2 img{
-        width:80%;
+        width:90%;
         margin-bottom: 10px;
+    }
+    .about-col-2{
+        position: absolute;
     }
     .row{
         display: grid;
