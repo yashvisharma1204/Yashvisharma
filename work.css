@@ -46,7 +46,7 @@ nav ul li a::after{
     content:'';
     width: 0;
     height: 3px;
-    background:#f48916;
+    background:#2fab71;
     position: absolute;
     bottom:-6px;
     left:0px;
@@ -56,7 +56,8 @@ nav ul li a:hover::after{
     content:'';
     width: 100%;
     height: 3px;
-    background:#ec9441;
+    background:#2fab71;
+    ;
     position: absolute;
     bottom:-6px;
     left:0px;
@@ -105,7 +106,7 @@ nav .fa-solid{
     content:'';
     width: 0;
     height:3px;
-    background:#f48916;
+    background:#2fab71;
     position: absolute;
     left:0;
     bottom:-8px;
@@ -119,7 +120,8 @@ nav .fa-solid{
     margin: 10px 0;
 }
 .tab-content ul li span{
-    color:#f48916;
+    color:#2fab71;
+    ;
 }
 .tab-content{
     display:none;
@@ -162,7 +164,7 @@ nav .fa-solid{
         margin-right: 20px;
     }
     nav ul{
-        background: #fd783a;
+    background:#2fab71;
         position: fixed;
         top:0;
         right:-200px;
@@ -200,7 +202,8 @@ nav .fa-solid{
         flex-basis: 100%;
     }
     span h3{
-        color:#ec9441;
+        color:#2fab71;
+        ;
     }
 }
 .images{
@@ -217,7 +220,7 @@ nav .fa-solid{
 }
 #work_head{
     color:#fff;
-    text-shadow: 1px 1px 2px #f48916;
+    text-shadow: 1px 1px 2px #2fab71;
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
