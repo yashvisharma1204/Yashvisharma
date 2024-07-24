@@ -72,6 +72,13 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color:#2fab71;
 }
+.header-text img{
+    width: 650px;
+    position: absolute;
+    right: 30px;
+    top: 70px;
+    transition: 0.5s;
+}
 /*----about-------*/
 #about{
     padding: 80px 0;
