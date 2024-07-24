@@ -324,6 +324,9 @@ nav .fa-solid{
         margin-top: 5%;
         font-size: 40px;
     }
+    .header-text img{
+        width: 0vh;
+    }
     nav .fa-solid{
         display:block;
         font-size: 25px;
