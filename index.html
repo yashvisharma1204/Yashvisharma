@@ -7,14 +7,7 @@
         <link rel="stylesheet" href="style.css">
         <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
         <script src="https://kit.fontawesome.com/a33776bbdd.js" crossorigin="anonymous"></script>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FZD12GGWTK"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
         
-          gtag('config', 'G-FZD12GGWTK');
-        </script>
     </head>
     <body>
         <div id="header">
@@ -31,11 +24,22 @@
                     <i class="fa-solid fa-bars" onclick="openmenu()"></i>
                 </nav>
                 <div class="header-text">
-                    <p>Aspiring Machine Learning Engineer</p>
-                    <h1>Hi, I'm <span>Yashvi</span><br> Sharma from India</h1>
-                    <a href="YashviResumee.pdf" download class="btn btn2">Resume</a>
-                    <img src="girl.png">
+                    <h3>Welcome to My Portfolio</h3>
+                    <h1>Hi, I'm Yashvi Sharma</h1>
+                    <p>Crafting Digital Solutions with Passion and Precision</p>
+                    <div class="social-media">
+                        <a href="https://github.com/yashvisharma1204"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/yashvi-sharma-150863220/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/yashvi.png/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="typewriter"></div>
                 </div>
+                <!-- Scroll Button -->
+                <button id="scrollButton" class="scroll-button">
+                    <i id="scrollIcon" class="fas fa-arrow-down"></i>
+                </button>
+                
+                
             </div>
         </div>
         <div id="about">
@@ -45,23 +49,53 @@
                         <img src="image2.jpg">
                     </div>
                     <div class="about-col-2">
-                        <div class="about-col-2">
                         <h1 class="subtitle">About Me</h1>
                         <p>Hello, I'm a <b>Second-year</b> Computer Science and Engineering student with a specialization in AI and Data Engineering at Lovely Professional University. Thrilled to be navigating the exciting intersection of technology and innovation!</p>
+                        
                         <div class="tab-titles">
                             <p class="tab-links active" onclick="opentab('skills')">Skills</p>
                             <p class="tab-links"onclick="opentab('education')">Education</p>
                             <p class="tab-links"onclick="opentab('experience')">Experience</p>
                         </div>
                         <div class="tab-content active-tab" id="skills">
-                            <ul>
-                                <li><span>Programming Languages:</span><br>Python and C</li>
-                                <li><span>Web Development:</span><br>HTML, CSS and Javascript,</li>
-                                <li><span>Database Management:</span><br>MySQL</li>
-                                <li><span>Machine Learning Framework:</span><br>Scikit-Learn, Langchain and Generative AI</li>
-                                <li><span>Data Analysis:</span><br>Pandas, NumPy and Matplotlib </span>
-                                <li><span>Softwares:</span><br>Canva, Figma, Git, ArduinoIDE and Raspberry PI</li>
-                            </ul>
+                        <div class="skills-box">
+                        <div class="skill">
+                            <p>Web Development </p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>Python </p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>C </p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 60%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>Data Analysis and Visualisation</p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>Generative AI </p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>Supervised Learning </p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
                         </div>
                         <div class="tab-content" id="education">
                             <ul>
@@ -78,13 +112,31 @@
                             </ul>
                         </div>
                     </div>
-                    </div>
+                </div>
+            </div>
+            <div class="slider-container">
+                <div class="slider-box active" id="box1">
+                    <h1>My Journey</h1>
+                    <p>My journey in tech began with a fascination for problem-solving and a love for programming. Over the past few years, I’ve had the opportunity to immerse myself in various projects and internships. From developing a To-do App using Tkinter to exploring data analysis with Uber rides data, each experience has been a stepping stone in my growth. Working as a Strategy and Operations Intern at Chamberly AB and a Software Engineering Fellow at Headstarter AI has further enriched my skills and broadened my perspective. Each challenge and triumph has shaped my path and strengthened my resolve to excel in this field.</p>
+                </div>
+                <div class="slider-box" id="box2">
+                    <h1>Inspirations</h1>
+                    <p>"Several influential figures and experiences have shaped my journey. The work of pioneers in AI and machine learning, such as Geoffrey Hinton and Yann LeCun, has been a constant source of inspiration. Their groundbreaking contributions to the field have motivated me to delve deeper into machine learning and strive for excellence. Additionally, my professors and mentors at LPU have provided invaluable guidance and support, helping me navigate my academic and professional pursuits with confidence."                    </p>
+                </div>
+                <div class="slider-box" id="box3">
+                    <h1>Future Aspirations</h1>
+                    <p> "Looking ahead, I am eager to continue exploring the frontier of artificial intelligence and machine learning. My goal is to work on projects that tackle real-world problems, such as advancing healthcare through AI-driven diagnostics or developing sustainable technology solutions. I am particularly excited about delving into generative AI and reinforcement learning, areas that hold immense potential for innovation. As I progress in my career, I aim to contribute to cutting-edge advancements and make a positive impact through my work."</p>
+                </div>
+                <div class="navigation-dots">
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                    <span class="dot" data-slide="3"></span>
                 </div>
             </div>
         </div>
         <div id="portfolio">
             <div class="container">
-                <h1 class="subtitle">My Works</h1>
+                <h1 class="subtitle" style="z-index: 1;">My Works</h1>
                 <div class="worklist">
                     <div class="work">
                         <img src="Screenshot 2024-06-09 152954.png">
@@ -120,12 +172,7 @@
                     <div class="contact-left">
                         <h1 class="subtitle">Contact Me</h1>
                         <p><i class="fa-solid fa-envelope"></i> yashvisharma1204@gmail.com</p>
-                        <div class="social-media">
-                            <a href="https://github.com/yashvisharma1204"><i class="fa-brands fa-github"></i></a>
-                            <a href="https://www.linkedin.com/in/yashvi-sharma-150863220/"><i class="fa-brands fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/yashvi.png/"><i class="fa-brands fa-instagram"></i></a>
-                        </div>
-                        
+                        <button class="resume"><a href="yashvi.pdf" download>Download Now</a></button>
                     </div>
                     <div class="contact-right">
                         <form name="submit-to-google-sheet">
@@ -179,6 +226,132 @@
                 })
                 .catch(error => console.error('Error!', error.message))
             })
+        </script>
+        <script>
+                document.addEventListener('DOMContentLoaded', function() {
+    const boxes = document.querySelectorAll('.slider-box');
+    const dots = document.querySelectorAll('.dot');
+    const sliderContainer = document.querySelector('.slider-container');
+    let currentIndex = 0;
+    let slideInterval;
+
+    function showSlide(index) {
+        boxes.forEach((box, i) => {
+            box.classList.toggle('active', i === index);
+        });
+        dots.forEach((dot, i) => {
+            dot.classList.toggle('active', i === index);
+        });
+    }
+
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % boxes.length;
+        showSlide(currentIndex);
+    }
+
+    function goToSlide(index) {
+        currentIndex = index;
+        showSlide(currentIndex);
+    }
+
+    function startSlider() {
+        slideInterval = setInterval(nextSlide, 3000); // Change slide every 3 seconds
+    }
+
+    function stopSlider() {
+        clearInterval(slideInterval);
+    }
+
+    dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => goToSlide(index));
+    });
+
+    sliderContainer.addEventListener('mouseover', stopSlider);
+    sliderContainer.addEventListener('mouseout', startSlider);
+
+    startSlider();
+});
+
+        </script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const words = ["Curious", "Creative", "Committed"];
+                const speed = 150; // Typing speed
+                const eraseSpeed = 100; // Erasing speed
+                const pauseBetweenWords = 2000; // Pause between words
+            
+                let i = 0; 
+                let j = 0; 
+                let isTyping = true;
+            
+                function typewriterEffect() {
+                    const element = document.querySelector(".typewriter");
+                    if (isTyping) {
+                        element.textContent += words[i][j];
+                        j++;
+                        if (j === words[i].length) {
+                            isTyping = false;
+                            setTimeout(typewriterEffect, pauseBetweenWords);
+                        } else {
+                            setTimeout(typewriterEffect, speed);
+                        }
+                    } else {
+                        element.textContent = words[i].substring(0, j - 1);
+                        j--;
+                        if (j === 0) {
+                            isTyping = true;
+                            i = (i + 1) % words.length;
+                            setTimeout(typewriterEffect, speed);
+                        } else {
+                            setTimeout(typewriterEffect, eraseSpeed);
+                        }
+                    }
+                }
+            
+                typewriterEffect();
+            });
+            </script>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+    const scrollButton = document.getElementById('scrollButton');
+    const scrollIcon = document.getElementById('scrollIcon');
+    const sections = ['header', 'about', 'portfolio', 'contact'];
+    let currentSection = 0;
+
+    scrollButton.addEventListener('click', () => {
+        currentSection++;
+        if (currentSection >= sections.length) {
+            currentSection = 0;
+        }
+        document.getElementById(sections[currentSection]).scrollIntoView({ behavior: 'smooth' });
+        updateButton();
+    });
+
+    const updateButton = () => {
+        if (currentSection === sections.length - 1) {
+            scrollIcon.classList.replace('fa-arrow-down', 'fa-arrow-up');
+        } else {
+            scrollIcon.classList.replace('fa-arrow-up', 'fa-arrow-down');
+        }
+    };
+
+    window.addEventListener('scroll', () => {
+        const contactSection = document.getElementById('contact');
+        const contactRect = contactSection.getBoundingClientRect();
+        if (contactRect.top < window.innerHeight && contactRect.bottom >= 0) {
+            currentSection = sections.length - 1;
+            updateButton();
+        } else {
+            const headerSection = document.getElementById('header');
+            const headerRect = headerSection.getBoundingClientRect();
+            if (headerRect.top < window.innerHeight && headerRect.bottom >= 0) {
+                currentSection = 0;
+                updateButton();
+            }
+        }
+    });
+});
+
         </script>
     </body>
 </html>
