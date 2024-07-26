@@ -132,8 +132,7 @@ nav ul li a:hover::after{
 /*----about-------*/
 #about{
     padding: 80px 0;
-    color:#ababab;
-
+    color:#d6d6d6;
 }
 .row{
     display: flex;
@@ -146,10 +145,11 @@ nav ul li a:hover::after{
 .about-col-1 img{
     width:100%;
     border-radius: 15px;
-
 }
 .about-col-2{
     flex-basis:60%;
+    border-radius: 20px;
+    padding: 20px;
 }
 .subtitle{
     font-size: 60px;
@@ -164,7 +164,7 @@ nav ul li a:hover::after{
 .tab-links{
     margin-right: 50px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight:bolder;
     cursor: pointer;
     position: relative;
 }
@@ -216,19 +216,17 @@ nav ul li a:hover::after{
 }
 
 .progress-bar {
-    background-color: #3a3a3a;
+    background-color: #00000089;
     border-radius: 10px;
     overflow: hidden;
 }
 
 .progress {
-    background-color: #2fab71;
+    background-color: #c99e5d;
     height: 10px;
 }
 #portfolio{
     padding: 50px, 0px;
-
-
 }
 .worklist{
     display: grid;
@@ -367,6 +365,7 @@ nav ul li a:hover::after{
 .contact-right form{
     width:100%;
 }
+
 form input, form textarea{
     border-radius: 6px;
     width: 100%;
@@ -505,6 +504,12 @@ nav .fa-solid{
     .about-col-1{
         margin-bottom: 20px ;
     }
+    .about-col-2{
+        width:80%;
+    }
+    .tab-links{
+        font-size:medium;
+    }
     nav ul li{
         display:block;
         margin:25px;
@@ -527,7 +532,7 @@ nav .fa-solid{
         font-size: medium;
     }
     .skills-box{
-        width:80%;
+        width:85%;
     }
     
     .skill p {
